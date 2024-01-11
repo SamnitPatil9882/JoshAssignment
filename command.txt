@@ -1,0 +1,275 @@
+ 134  git init
+  135  ls -a
+  136  mkdir college
+  137  cd college
+  138  nano collegeName.txt
+  139  git init
+  140  git checkout -b "College data"
+  141  git checkout -b Collegedata
+  142  nano collge1.txt
+  143  git status
+  144  git add .
+  145  git status
+  146  git log
+  147  git commit -m "college name data created"
+  148  git log
+  149  mkdir student
+  150  nano studentdata.txt
+  151  git branch
+  152  git status
+  153  git checkout -b teacherData
+  154  mkdir teacher
+  155  cd teacher
+  156  nano teacher.txt
+  157  git branch --list
+  158  git status
+  159  git branch
+  160  git checkout Collegedata
+  161  git status
+  162  git commit -m "student data created"
+  163  git add .
+  164  git status
+  165  git add .
+  166  git status
+  167  git status
+  168  git branch
+  169  git checkout teacherdata
+  170  git status
+  171  git add .
+  172  git status
+  173  git checkout
+  174  git branch
+  175  git checkout Collegedata
+  176  git branch
+  177  git checkout
+  178  git status
+  179  git add studentdata.txt
+  180  git add college
+  181  git add .
+  182  git status
+  183  git commit
+  184  git status
+  185  git commit -m "collegedata added"
+  186  git status
+  187  git add .
+  188  git status
+  189  cd..
+  190  cd ..
+  191  git status
+  192  git add .
+  193  git status
+  194  git status
+  195  mkdir college
+  196  rmdir college
+  197  ls
+ 134  git init
+  135  ls -a
+  136  mkdir college
+  137  cd college
+  138  nano collegeName.txt
+  139  git init
+  140  git checkout -b "College data"
+  141  git checkout -b Collegedata
+  142  nano collge1.txt
+  143  git status
+  144  git add .
+  145  git status
+  146  git log
+  147  git commit -m "college name data created"
+  148  git log
+  149  mkdir student
+  150  nano studentdata.txt
+  151  git branch
+  152  git status
+  153  git checkout -b teacherData
+  154  mkdir teacher
+  155  cd teacher
+  156  nano teacher.txt
+  157  git branch --list
+  158  git status
+  159  git branch
+  160  git checkout Collegedata
+  161  git status
+  162  git commit -m "student data created"
+  163  git add .
+  164  git status
+  165  git add .
+  166  git status
+  167  git status
+  168  git branch
+  169  git checkout teacherdata
+  170  git status
+  171  git add .
+  172  git status
+  173  git checkout
+  174  git branch
+  175  git checkout Collegedata
+  176  git branch
+  177  git checkout
+  178  git status
+  179  git add studentdata.txt
+  180  git add college
+  181  git add .
+  182  git status
+  183  git commit
+  184  git status
+  185  git commit -m "collegedata added"
+  186  git status
+  187  git add .
+  188  git status
+  189  cd..
+  190  cd ..
+  191  git status
+  192  git add .
+  193  git status
+  194  git status
+  195  mkdir college
+  196  rmdir college
+  197  ls
+  198  mkdir student
+  199  cd student
+  200  nano studentData.txt
+  201  git status
+  202  cd ..
+  203  git init
+  204  cd student
+  205  cat studentData.txt
+  206  git status
+  207  cd ..
+  208  git status
+  209  cd ..
+  210  git init
+  211  mkdir student
+  212  cd student
+  213  nano studentData.txt
+  214  cat studentData.txt
+  215  git status
+  216  cd ..
+  217  git status
+  218  git add .
+  219  git add .
+  220  git status
+  221  mkdir teacher
+  222  cd teacher
+  223  nano teacherData.txt
+  224  git status
+  225  git add .
+  226  git status
+  227  nano teacherData.txt
+  228  git status
+  229  git add .
+  230  git status
+  231  cat teacherData.txt
+  232  git revert teacherData.txt
+  233  cat teacherData.txt
+  234  git restore teacherData.txt
+  235  cat teacherData.txt
+  236  git status
+  237  git commit -m "commited student teacher Data"
+  238  git status
+  239  git log
+  240  git reset --soft HEAD~1
+  241  git reset --soft HEAD~ 1
+  242  git reset --soft HEAD~1
+  243  nano demo.txt
+  244  git status
+  245  git add .
+  246  git status
+  247  git commit -m "commited demo file"
+  248  git status
+  249  git reset --soft HEAD~1
+  250  git status
+  251  cat demo.txt
+  252  nano demo.txt
+  253  git diff
+  254  git add .
+  255  cat deomo.txt
+  256  cat demo.txt
+  257  git restore --staged demo.txt
+  258  cat demo.txt
+  259  git restore deomo.txt
+  260  cat demo.txt
+  261  git status
+  262  cat demo.txt
+  263  git add .
+  264  git status
+  265  git restore demo.txt
+  266  cat demo.txt
+  267  git status
+  268  git restore --staged demo.txt
+  269  git status
+  270  git log
+  271  git add .
+  272  git commit -m "demo file added"
+  273  git log
+  274  git reset --soft HEAD~1
+  275  git status
+  276  git log
+  277  cat demo.txt
+  278  git commit -m "commited demo.txt"
+  279  git log
+  280  git reset --hard HEAD~1
+  281  git status
+  282  cat demo.txt
+  283  cat studentData.txt
+  284  cat teacherData.tt
+  285  cat teacherData.txt
+  286  nano teacherData.txt
+  287  git status
+  288  git add .
+  289  git status
+  290  git commit -m "updated teacherData.txt"
+  291  git log
+  292  cat teacherData.txt
+  293  git reset --hard HEAD~1
+  294  git status
+  295  git log
+  296  cat teacherData.txt
+  297  git branch
+  298  git checkout -b collegeInfo
+  299  nano demoinfo.txt
+  300  git status
+  301  git add .
+  302  git commit -m "demoinfo commited"
+  303  git log
+  304  nano demoinfo.txt
+  305  git add .
+  306  git diff
+  307  cat demoinfo.txt
+  308  nano demoinfo.txt
+  309  git diff
+  310  git add .
+  311  git stash
+  312  git list
+  313  git stash list
+  314  git stash show
+  315  git status
+  316  git stash pop
+  317  cat demoinfo.txt
+  318  git add .
+  319  git status
+  320  git stash
+  321  git stash list
+  322  git stash pop
+  323  git status
+  324  git add .
+  325  history
+  326  git remote add origin git@github.com:SamnitPatil9882/JoshAssignment.git
+  327  git push origin master
+  328  git checkout -b feature1
+  329  nano demo1.txt
+  330  git add .
+  331  git commit -m "commit on feature for demo"
+  332  git push origin feature1
+  333  git pull master
+  334  git pull demo2.txt
+  335  git pull https://github.com/SamnitPatil9882/JoshAssignment.git
+  336  git fetch
+  337  git branch
+  338  git checkout feature2
+  339  git branch
+  340  git branch -b dbranch
+  341  git checkout -b dbranch
+  342  git push origin dbranch
+  343  git push origin -d dbranch
+  344  history
